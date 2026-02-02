@@ -14,7 +14,7 @@ struct std_node {
 typedef struct std_node* NodePtr;
 
 // --------------------------------------------------------
-// ส่วนที่ 2: Prototypes
+// ส่วนที่ 2: Prototypes//
 // --------------------------------------------------------
 void insert(NodePtr *head, int id, char *name);
 void print_list(NodePtr head);
@@ -26,7 +26,7 @@ void delete_list(NodePtr head);
 int main(int argc, char **argv) {
     NodePtr head = NULL;
     int i;
-    
+
     for (i = argc - 2; i > 0; i -= 2) {
         int id = atoi(argv[i]);
         char *name = argv[i + 1];
